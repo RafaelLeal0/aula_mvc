@@ -1,14 +1,12 @@
-/* assets/css/style.css - Versão 4 (Design Sofisticado/Premium) */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 :root {
-    --primary-dark: #1F2937; /* Cinza escuro para cabeçalhos e fundo principal da tabela */
-    --accent-blue: #3B82F6; /* Azul vibrante para botões de ação e hover */
-    --success-green: #059669; /* Verde para botões principais */
-    --background-deep: #E5E7EB; /* Fundo geral, muito suave */
-    --card-bg-light: rgba(255, 255, 255, 0.7); /* Fundo claro para o Glassmorphism */
-    --text-dark: #111827; /* Texto principal */
+    --primary-dark: #1F2937; 
+    --accent-blue: #3B82F6; 
+    --success-green: #059669; 
+    --background-deep: #E5E7EB;
+    --card-bg-light: rgba(255, 255, 255, 0.7); 
+    --text-dark: #111827; 
     --text-light: #F9FAFB;
     --border-subtle: #D1D5DB;
     --danger: #EF4444;
@@ -20,12 +18,11 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, var(--background-deep), #D1D5DB); /* Fundo gradiente sutil */
+    background: linear-gradient(135deg, var(--background-deep), #D1D5DB);
     color: var(--text-dark);
     min-height: 100vh;
 }
 
-/* Barra Superior (Masthead) - Fundo mais escuro */
 .masthead {
     background-color: var(--primary-dark);
     color: var(--text-light);
@@ -42,26 +39,19 @@ body {
     font-weight: 700;
 }
 
-/* Card Container com Glassmorphism */
 .container {
     width: 95%;
     max-width: 1100px;
     margin: 0 auto 50px auto;
-    
-    /* Efeito Glassmorphism */
     background: var(--card-bg-light);
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-
     padding: 40px;
     border-radius: var(--radius);
     box-shadow: var(--shadow-soft);
 }
 
-/* ================================
-   🔹 Títulos e Alinhamento
-=================================== */
 h1 {
     color: var(--text-dark);
     text-align: left;
@@ -80,9 +70,6 @@ h1 {
     border-bottom: 1px solid var(--border-subtle);
 }
 
-/* ================================
-         Botões
-=================================== */
 a.button, button[type="submit"] {
     display: inline-flex;
     align-items: center;
@@ -91,7 +78,7 @@ a.button, button[type="submit"] {
     background-color: var(--success-green);
     color: var(--text-light);
     border: none;
-    border-radius: var(--radius); /* Mais arredondado */
+    border-radius: var(--radius); 
     cursor: pointer;
     transition: 0.3s ease;
     font-weight: 600;
@@ -101,17 +88,14 @@ a.button, button[type="submit"] {
 }
 
 a.button:hover, button[type="submit"]:hover {
-    background-color: #047857; /* Verde mais escuro no hover */
+    background-color: #047857;
     transform: translateY(-1px);
     box-shadow: 0 6px 8px rgba(5, 150, 105, 0.4);
 }
 
-/* ================================
-   🧾 Tabela
-=================================== */
 table {
     width: 100%;
-    border-collapse: collapse; /* Voltando para collapse para melhor controle visual */
+    border-collapse: collapse; 
     margin-top: 20px;
     border-radius: var(--radius);
     overflow: hidden;
@@ -136,10 +120,8 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: rgba(249, 250, 251, 0.7); /* Linhas alternadas sutis */
+    background-color: rgba(249, 250, 251, 0.7); 
 }
-
-/* Ações (Icons) */
 .action-link {
     margin: 0 10px;
     font-size: 1.2em;
@@ -160,10 +142,6 @@ tr:nth-child(even) {
 .action-link.delete:hover {
     color: #B91C1C;
 }
-
-/* ================================
-   🧠 Formulários
-=================================== */
 form {
     gap: 20px;
     padding-top: 10px;
@@ -181,7 +159,7 @@ input[type="text"], input[type="number"] {
     font-size: 1em;
     box-sizing: border-box;
     transition: 0.2s;
-    background-color: var(--white); /* Input sempre branco */
+    background-color: var(--white);
 }
 
 input:focus {

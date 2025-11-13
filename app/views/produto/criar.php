@@ -40,10 +40,7 @@
                 <i class="fas fa-arrow-left"></i> Voltar para a Lista
             </a>
         </div>
-        
-        <div class="footer">
-            Sistema MVC em PHP Puro | Desenvolvido no SENAI &copy; <?= date('Y') ?>
-        </div>
+
     </div>
 </body>
 </html>

@@ -49,10 +49,6 @@
                 <?php endforeach; ?>
             </tbody>
         </table>
-        
-        <div class="footer">
-            Sistema MVC em PHP Puro | Desenvolvido no SENAI &copy; <?= date('Y') ?>
-        </div>
     </div>
 </body>
 </html>
